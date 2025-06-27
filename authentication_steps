@@ -1,0 +1,30 @@
+Implementing the authentication using clerk
+---------------------------------------------
+🔐 What Is Clerk?
+-> Clerk is a complete user management solution for front-end and full-stack applications.
+   It's designed to simplify building authentication, authorization, and user profile systems
+   — especially for apps built with React, Next.js, Remix, Astro, etc.
+
+Use Clerk if:
+    - You want fast, secure authentication without building it from scratch
+    - You’re using modern frameworks like Next.js or React
+    - You want a hosted solution with drop-in UI
+    - You need features like MFA, social login, or org support
+
+1. create an account in clerk and create new project
+2. Install clerk dependency
+3. Configure the clerk in react application
+
+Integrate clerk with spring boot
+---------------------------------
+1. Add the necessary dependencies
+2. Configure clerk (add these properties in application.properties file : clerk.issuer and clerk.jwks-url)
+3. Configure Spring Security
+    - create SecurityConfig.java and create a method : public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) {} (mark this as @Bean)
+    - one more @Bean public CorsFilter corsFilter() {}
+    - now I will remove this @CrossOrigin("*") from Controller
+4. Configure Authentication filter
+    - now need to create custom Authentication filter
+    - create security pkg under this create ClerkJwtAuthFilter.java extend this class : OncePerRequestFilter and override the doFilterInternal method
+    - create one more class under security pkg -> ClerkJwksProvider.java
+5. Configure Jwks provider
