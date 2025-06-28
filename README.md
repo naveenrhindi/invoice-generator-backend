@@ -84,9 +84,10 @@ FRONTEND_URL=https://invoice-generator-frontend-theta-ten.vercel.app
 
 ## ⚙️ Steps
 # 1. Clone the backend repository
+```
 git clone https://github.com/naveenrhindi/invoice-generator-backend.git
 cd invoice-generator-backend
-
+```
 # 2. Set up environment variables on Railway (or create `.env`)
 
 # 3. Build the application
