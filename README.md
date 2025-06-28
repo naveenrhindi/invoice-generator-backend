@@ -99,6 +99,7 @@ java -jar target/invoice-generator-backend-0.0.1-SNAPSHOT.jar
 ```
 
 ## 📁 Folder Structure
+```
 src/
 ├── config/              # General config (CORS, beans, etc.)
 ├── controller/          # REST endpoints and request mappings
@@ -106,7 +107,7 @@ src/
 ├── repository/          # Interfaces for database operations
 ├── security/            # JWT filters, auth providers, Clerk config
 ├── service/             # Core business logic and implementations
-
+```
 
 
 ## 🧰 Tooling & Integrations
