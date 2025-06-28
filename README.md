@@ -72,6 +72,7 @@ CLERK_WEBHOOK_SECRET=your-webhook-secret
 FRONTEND_URL=https://invoice-generator-frontend-theta-ten.vercel.app
 ```
 
+
 ## 🧪 Running Locally
 ## 🖥️ Prerequisites
 
@@ -79,6 +80,7 @@ FRONTEND_URL=https://invoice-generator-frontend-theta-ten.vercel.app
 - Maven installed
 - MongoDB URI (Atlas or Local)
 - Active Clerk & Cloudinary accounts
+
 
 ## ⚙️ Steps
 # 1. Clone the backend repository
@@ -102,6 +104,8 @@ src/
 ├── security/            # JWT filters, auth providers, Clerk config
 ├── service/             # Core business logic and implementations
 
+
+
 ## 🧰 Tooling & Integrations
 
 | Purpose            | Tool Used                                 |
@@ -111,6 +115,7 @@ src/
 | ☁️ Image Upload    | [Cloudinary](https://cloudinary.com)      |
 | 📧 Mail Service    | Gmail + JavaMail                          |
 | 🔄 Source Control  | [GitHub](https://github.com/naveenrhindi) |
+
 
 ## 🧠 Why Use This?
 
