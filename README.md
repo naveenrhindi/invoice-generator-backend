@@ -132,7 +132,8 @@ src/
 
 ## 👨‍💼 Author
 
-Created with ❤️ by Naveen Ravindra Hindi
-📧 Email: [naveenhindi4@gmail.com](naveenhindi4@gmail.com)
-🔗 Backend Repo: [invoice-generator-backend](https://github.com/naveenrhindi/invoice-generator-backend)
+Created with ❤️ by **Naveen Ravindra Hindi**  
+📧 Email: [naveenhindi4@gmail.com](mailto:naveenhindi4@gmail.com)  
+🔗 Backend Repo: [invoice-generator-backend](https://github.com/naveenrhindi/invoice-generator-backend)  
 🔗 Frontend Repo: [invoice-generator-client](https://github.com/naveenrhindi/invoice-generator-frontend)
+
