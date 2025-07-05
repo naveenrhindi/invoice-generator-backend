@@ -16,7 +16,7 @@
 - 🔐 JWT-based authentication with Clerk  
 - 🌐 CORS-enabled backend for frontend communication  
 - 💾 Data persistence using MongoDB Atlas  
-- 🚀 Deployed using Railway
+- 🚀 Deployed using Render
 
 ---
 
@@ -29,14 +29,14 @@
 | **Auth**         | [Clerk.dev](https://clerk.dev) (JWT, Webhooks)  |
 | **Email**        | Java Mail + Gmail SMTP                          |
 | **Image Upload** | [Cloudinary](https://cloudinary.com)            |
-| **Deployment**   | [Railway](https://railway.app)                  |
+| **Deployment**   | [Render](https://render.com)                  |
 | **Versioning**   | Git & [GitHub](https://github.com/naveenrhindi) |
 
 ---
 
 ## 🌍 Live API Base URL
 
-https://invoice-generator-backend-production-cc2f.up.railway.app/api
+https://invoice-generator-backend-0da7.onrender.com/api
 
 Use this as the base URL for all frontend API requests.
 
@@ -89,7 +89,7 @@ FRONTEND_URL=https://invoice-generator-frontend-theta-ten.vercel.app
 git clone https://github.com/naveenrhindi/invoice-generator-backend.git
 cd invoice-generator-backend
 
-# 2. Set up environment variables on Railway (or create `.env`)
+# 2. Set up environment variables on Render (or create `.env`)
 
 # 3. Build the application
 ./mvnw clean install
@@ -112,13 +112,14 @@ src/
 
 ## 🧰 Tooling & Integrations
 
-| Purpose            | Tool Used                                 |
-| ------------------ | ----------------------------------------- |
-| 🚀 Deployment      | [Railway](https://railway.app)            |
-| 🛡️ Authentication | [Clerk.dev](https://clerk.dev)            |
-| ☁️ Image Upload    | [Cloudinary](https://cloudinary.com)      |
-| 📧 Mail Service    | Gmail + JavaMail                          |
-| 🔄 Source Control  | [GitHub](https://github.com/naveenrhindi) |
+| Purpose            | Tool Used                                      |
+|--------------------|------------------------------------------------|
+| 🚀 Deployment      | [Render](https://render.com)                   |
+| 🛡️ Authentication  | [Clerk.dev](https://clerk.dev)                 |
+| ☁️ Image Upload    | [Cloudinary](https://cloudinary.com)           |
+| 📧 Mail Service    | Gmail + JavaMail                               |
+| 🔄 Source Control  | [GitHub](https://github.com/naveenrhindi)      |
+
 
 
 ## 🧠 Why Use This?
